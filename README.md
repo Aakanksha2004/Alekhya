@@ -1,7 +1,7 @@
 # 🩺 Skin Disease Classification Using Custom CNN
 
 ## 📌 Project Overview
-This project implements a **Convolutional Neural Network (CNN)** from scratch to classify **skin disease images** into multiple categories using dermoscopic images. The model is trained using TensorFlow and Keras and evaluated using accuracy, precision, recall, F1-score, and confusion matrix.
+This project implements a **Convolutional Neural Network (CNN)** from scratch to classify **skin disease images** into multiple categories using dermoscopic images. The model is trained and evaluated using accuracy, precision, recall, F1-score, and confusion matrix.
 
 The system also supports **real-time image prediction** by uploading a skin image.
 
@@ -32,7 +32,7 @@ skin_data_split/
 ---
 
 ## 🧠 Model Architecture
-The model is a **custom CNN** built using the Keras Sequential API.
+The model is a **custom CNN**.
 
 ### 🔹 Convolutional Layers
 - Conv2D (32 filters) + Batch Normalization + Max Pooling + Dropout
